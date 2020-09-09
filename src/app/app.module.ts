@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './Server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { LoginComponent } from './Login/login.component';
+import { LoginJSDirective } from './Login/login-js.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    LoginComponent
+    LoginComponent,
+    LoginJSDirective
   ],
   imports: [
     BrowserModule,
